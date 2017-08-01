@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BED419F-9836-4F19-9147-30E72BF010B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto</RootNamespace>
+    <AssemblyName>Proyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Proyecto.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib.BarcodeReader">
+      <HintPath>..\..\..\..\..\..\Desktop\Respaldo Note\Projects\BarcodeLib_NETBarcodeReader_Trial\BarcodeLib.BarcodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="CRVsPackageLib, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CRVsPackageLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Data.AdoDotNetInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="IDAutomation.LinearBarCode">
+      <HintPath>..\..\..\..\..\..\Downloads\IDAutomation_LinearFormsControlFREE\IDAutomation.LinearBarCode.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\..\Desktop\Respaldo Note\Projects\itextsharp\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\..\..\..\..\Desktop\Respaldo Note\Projects\itextsharp\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\..\..\..\..\Desktop\Respaldo Note\Projects\itextsharp\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MantenedorCamion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorCamion.Designer.cs" />
+    <Compile Include="MantenedorCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorCargo.Designer.cs" />
+    <Compile Include="MantenedorCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorCategoria.designer.cs" />
+    <Compile Include="MantenedorCiudad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorCiudad.designer.cs" />
+    <Compile Include="MantenedorComuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorComuna.designer.cs" />
+    <Compile Include="MantenedorMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorMarca.designer.cs" />
+    <Compile Include="MantenedorMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorMaterial.designer.cs" />
+    <Compile Include="MantenedorModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorModelo.designer.cs" />
+    <Compile Include="MantenedorObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorObra.designer.cs" />
+    <Compile Include="MantenedorPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorPersonal.Designer.cs" />
+    <Compile Include="MantenedorRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorRegion.Designer.cs" />
+    <Compile Include="MantenedorRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorRuta.Designer.cs" />
+    <Compile Include="MantenedorSubCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorSubCategoria.Designer.cs" />
+    <Compile Include="MantenedorUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorUsuarios.Designer.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroEntradaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroEntradaUsuarios.Designer.cs" />
+    <Compile Include="ReporteRutasPorChofer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.cs" />
+    <EmbeddedResource Include="MantenedorCamion.resx" />
+    <EmbeddedResource Include="MantenedorCargo.resx" />
+    <EmbeddedResource Include="MantenedorCategoria.resx" />
+    <EmbeddedResource Include="MantenedorCiudad.resx" />
+    <EmbeddedResource Include="MantenedorComuna.resx" />
+    <EmbeddedResource Include="MantenedorMarca.resx" />
+    <EmbeddedResource Include="MantenedorMaterial.resx" />
+    <EmbeddedResource Include="MantenedorModelo.resx" />
+    <EmbeddedResource Include="MantenedorObra.resx" />
+    <EmbeddedResource Include="MantenedorPersonal.resx" />
+    <EmbeddedResource Include="MantenedorRegion.resx" />
+    <EmbeddedResource Include="MantenedorRuta.resx" />
+    <EmbeddedResource Include="MantenedorSubCategoria.resx" />
+    <EmbeddedResource Include="MantenedorUsuarios.resx" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.Login.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorCamion.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorCargo.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorCategoria.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorCiudad.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorComuna.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorMarca.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorMaterial.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorModelo.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorObra.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorPersonal.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorRegion.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorRuta.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorSubCategoria.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MantenedorUsuarios.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MenuADM.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.MenuUSU.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.RegistroEntrada.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.RegistroEntradaUsuarios.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.RegistroSalida.resources" />
+    <EmbeddedResource Include="obj\Debug\Proyecto.Reportes.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegistroEntradaUsuarios.resx" />
+    <EmbeddedResource Include="Reportes.resx" />
+    <None Include="bin\Debug\Proyecto.exe.config" />
+    <None Include="bin\Debug\Proyecto.vshost.exe.config" />
+    <None Include="bin\Debug\Proyecto.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Proyecto.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\Proyecto.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BarcodeLib.BarcodeReader.dll" />
+    <Content Include="bin\Debug\IDAutomation.LinearBarCode.dll" />
+    <Content Include="bin\Debug\itextsharp.dll" />
+    <Content Include="bin\Debug\itextsharp.pdfa.dll" />
+    <Content Include="bin\Debug\itextsharp.xtra.dll" />
+    <Content Include="bin\Debug\Proyecto.exe" />
+    <Content Include="bin\Debug\Proyecto.pdb" />
+    <Content Include="bin\Debug\Proyecto.vshost.exe" />
+    <Content Include="obj\Debug\Proyecto.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Proyecto.exe" />
+    <Content Include="obj\Debug\TempPE\DataSet11.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\PROYECTOTDataSet31.Designer.cs.dll" />
+    <None Include="Resources\NoDisponible.bmp" />
+    <None Include="Resources\Image1.jpg" />
+    <None Include="Resources\111.png" />
+    <None Include="Resources\14.png" />
+    <None Include="Resources\13.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\10.png" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1-candado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{198b5e69-00c9-4762-a195-f7775afba583}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

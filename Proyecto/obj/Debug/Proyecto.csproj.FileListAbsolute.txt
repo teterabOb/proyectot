@@ -1,0 +1,87 @@
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCamion.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCargo.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCategoria.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCiudad.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorComuna.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorMarca.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorMaterial.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorModelo.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorObra.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorPersonal.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorRegion.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorRuta.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorSubCategoria.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorUsuarios.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MenuADM.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.MenuUSU.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroEntrada.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroEntradaUsuarios.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroSalida.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.Reportes.resources
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\BarcodeLib.BarcodeReader.dll
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\IDAutomation.LinearBarCode.dll
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\itextsharp.dll
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\itextsharp.pdfa.dll
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\itextsharp.xtra.dll
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\bin\Debug\itextsharp.xml
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\gilberts.ahumada\Documents\Visual Studio 2013\Projects\Proyectot\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCamion.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCargo.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCategoria.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCiudad.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorComuna.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorMarca.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorMaterial.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorModelo.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorObra.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorPersonal.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorRegion.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorRuta.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorSubCategoria.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorUsuarios.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MenuADM.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.MenuUSU.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroEntrada.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroEntradaUsuarios.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroSalida.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Reportes.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\GILBERTS\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCamion.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCargo.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCategoria.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorCiudad.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorComuna.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorMarca.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorMaterial.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorModelo.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorObra.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorPersonal.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorRegion.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorRuta.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorSubCategoria.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.MantenedorUsuarios.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.RegistroEntradaUsuarios.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.Reportes.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache

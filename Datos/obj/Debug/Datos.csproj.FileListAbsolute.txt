@@ -1,0 +1,22 @@
+C:\Users\GILBERTS\Desktop\Proyecto\Datos\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Datos\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Datos\obj\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Datos\obj\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Datos\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Datos\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Datos\obj\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Datos\obj\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Datos\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Datos\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Datos\obj\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Datos\obj\Debug\Datos.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Datos\bin\Debug\Datos.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Datos\bin\Debug\Datos.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\bin\Debug\Datos.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\bin\Debug\Datos.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.pdb

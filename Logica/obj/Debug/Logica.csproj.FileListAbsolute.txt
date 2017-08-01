@@ -1,0 +1,35 @@
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\bin\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\bin\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\obj\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Logica\obj\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\bin\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\bin\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\obj\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Logica\obj\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\bin\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\bin\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\obj\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Logica\obj\Debug\Logica.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Logica.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Logica.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Datos.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Datos.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Logica.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Logica.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Datos.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Datos.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.pdb

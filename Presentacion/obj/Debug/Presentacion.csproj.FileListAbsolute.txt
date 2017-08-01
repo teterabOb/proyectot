@@ -1,0 +1,85 @@
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.Login.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.Menu.MenuADM.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.MantenedorRuta.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroEntrada.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroSalida.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\GILBERTS\Desktop\Proyecto\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.Login.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.Mantenedores.MantenedorCamion.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Menu.MenuADM.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.MantenedorRuta.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.Menu.MenuUSU.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroEntrada.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroSalida.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Pantallas.Login.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Pantallas.Mantenedores.MantenedorCamion.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Menu.MenuADM.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Pantallas.MantenedorRuta.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Pantallas.Menu.MenuUSU.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroEntrada.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroSalida.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Datos.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Logica.dll
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Datos.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\bin\Debug\Logica.pdb
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\GILBERTS\Desktop\Proyectos\Proyecto 13-05-2017 2309\Presentacion\obj\Debug\Presentacion.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Presentacion.exe.config
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.exe
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Presentacion.exe
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Presentacion.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Datos.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Logica.dll
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Datos.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Logica.pdb
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.Login.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.Mantenedores.MantenedorCamion.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Menu.MenuADM.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.MantenedorRuta.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.Menu.MenuUSU.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroEntrada.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroSalida.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\DD\Proyectos\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Presentacion.exe.config
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.exe
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Presentacion.exe
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Presentacion.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Datos.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Logica.dll
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Datos.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\bin\Debug\Logica.pdb
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.Login.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.Mantenedores.MantenedorCamion.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Menu.MenuADM.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.MantenedorRuta.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.Menu.MenuUSU.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroEntrada.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Pantallas.RegistroSalida.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\CRC\Proyecto 13-05-2017 2309 - copia\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
