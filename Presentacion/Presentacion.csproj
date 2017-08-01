@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29C551A9-E20F-4201-AF47-1E48D1CBCE06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib.BarcodeReader">
+      <HintPath>..\Proyecto\bin\Debug\BarcodeLib.BarcodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="IDAutomation.LinearBarCode">
+      <HintPath>..\Proyecto\bin\Debug\IDAutomation.LinearBarCode.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\Proyecto\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\Proyecto\bin\Debug\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\Proyecto\bin\Debug\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pantallas\Ingreso\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Ingreso\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCamion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCamion.Designer.cs">
+      <DependentUpon>MantenedorCamion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCargo.Designer.cs">
+      <DependentUpon>MantenedorCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCategoria.Designer.cs">
+      <DependentUpon>MantenedorCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCiudad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorCiudad.Designer.cs">
+      <DependentUpon>MantenedorCiudad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorComuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorComuna.Designer.cs">
+      <DependentUpon>MantenedorComuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorMarca.Designer.cs">
+      <DependentUpon>MantenedorMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorMaterial.Designer.cs">
+      <DependentUpon>MantenedorMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorModelo.Designer.cs">
+      <DependentUpon>MantenedorModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorObra.Designer.cs">
+      <DependentUpon>MantenedorObra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorPersonal.Designer.cs">
+      <DependentUpon>MantenedorPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorRegion.Designer.cs">
+      <DependentUpon>MantenedorRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorSubCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorSubCategoria.Designer.cs">
+      <DependentUpon>MantenedorSubCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorUsuarios.Designer.cs">
+      <DependentUpon>MantenedorUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Menu\MenuADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Menu\MenuADM.Designer.cs">
+      <DependentUpon>MenuADM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Pantallas\Mantenedores\MantenedorRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Mantenedores\MantenedorRuta.Designer.cs">
+      <DependentUpon>MantenedorRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Menu\MenuUSU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Menu\MenuUSU.Designer.cs">
+      <DependentUpon>MenuUSU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Transacciones\RegistroEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Transacciones\RegistroEntrada.Designer.cs">
+      <DependentUpon>RegistroEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Transacciones\RegistroSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Transacciones\RegistroSalida.Designer.cs">
+      <DependentUpon>RegistroSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pantallas\Ingreso\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Mantenedores\MantenedorCamion.resx">
+      <DependentUpon>MantenedorCamion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Menu\MenuADM.resx">
+      <DependentUpon>MenuADM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Presentacion.Menu.MenuADM.resources" />
+    <EmbeddedResource Include="obj\Debug\Presentacion.Pantallas.Login.resources" />
+    <EmbeddedResource Include="obj\Debug\Presentacion.Pantallas.MantenedorRuta.resources" />
+    <EmbeddedResource Include="obj\Debug\Presentacion.Pantallas.RegistroEntrada.resources" />
+    <EmbeddedResource Include="obj\Debug\Presentacion.Pantallas.RegistroSalida.resources" />
+    <EmbeddedResource Include="obj\Debug\Presentacion.Properties.Resources.resources" />
+    <EmbeddedResource Include="Pantallas\Mantenedores\MantenedorRuta.resx">
+      <DependentUpon>MantenedorRuta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Menu\MenuUSU.resx">
+      <DependentUpon>MenuUSU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Transacciones\RegistroEntrada.resx">
+      <DependentUpon>RegistroEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Transacciones\RegistroSalida.resx">
+      <DependentUpon>RegistroSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\Presentacion.exe.config" />
+    <None Include="bin\Debug\Presentacion.vshost.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Presentacion.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\Presentacion.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-candado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoDisponible.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{7b44568e-b58a-402b-a6cb-c6326182ebd8}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{198b5e69-00c9-4762-a195-f7775afba583}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="Pantallas\Acceso\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BarcodeLib.BarcodeReader.dll" />
+    <Content Include="bin\Debug\Datos.dll" />
+    <Content Include="bin\Debug\Datos.pdb" />
+    <Content Include="bin\Debug\IDAutomation.LinearBarCode.dll" />
+    <Content Include="bin\Debug\itextsharp.dll" />
+    <Content Include="bin\Debug\itextsharp.pdfa.dll" />
+    <Content Include="bin\Debug\itextsharp.xtra.dll" />
+    <Content Include="bin\Debug\Logica.dll" />
+    <Content Include="bin\Debug\Logica.pdb" />
+    <Content Include="bin\Debug\Presentacion.exe" />
+    <Content Include="bin\Debug\Presentacion.vshost.exe" />
+    <Content Include="obj\Debug\Presentacion.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Presentacion.exe" />
+    <Content Include="obj\Debug\Presentacion.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
