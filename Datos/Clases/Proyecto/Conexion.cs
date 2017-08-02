@@ -13,7 +13,7 @@ namespace Datos.Clases
         private SqlConnection con { get; set; }
         private string cadenaConexion()
         {
-            return (@"Data Source =DESKTOP-AA9RM3O; Initial Catalog = PROYECTOT; Integrated security=true");
+            return (@"Data Source =.; Initial Catalog = PROYECTOT; Integrated security=true");
         }
         public SqlConnection getConexion()
         {

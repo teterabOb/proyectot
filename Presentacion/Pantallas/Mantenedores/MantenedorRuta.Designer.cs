@@ -64,12 +64,6 @@
             this.tbpIngresoDatos = new System.Windows.Forms.TabPage();
             this.tbpDatos = new System.Windows.Forms.TabPage();
             this.dgvRutas = new System.Windows.Forms.DataGridView();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.txtIdBuscar = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pbImagenRuta = new System.Windows.Forms.PictureBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.codigoDeBarra = new IDAutomation.Windows.Forms.LinearBarCode.Barcode();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tbtnNuevo = new System.Windows.Forms.ToolStripButton();
@@ -101,10 +95,6 @@
             this.tbpIngresoDatos.SuspendLayout();
             this.tbpDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRutas)).BeginInit();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImagenRuta)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.MenuNav.SuspendLayout();
             this.SuspendLayout();
@@ -415,14 +405,10 @@
             // 
             this.tclMantenedorRutas.Controls.Add(this.tbpIngresoDatos);
             this.tclMantenedorRutas.Controls.Add(this.tbpDatos);
-            this.tclMantenedorRutas.Controls.Add(this.tabPage1);
-            this.tclMantenedorRutas.Controls.Add(this.tabPage2);
-    
-       
-            this.tclMantenedorRutas.Location = new System.Drawing.Point(0, 41);
+            this.tclMantenedorRutas.Location = new System.Drawing.Point(8, 41);
             this.tclMantenedorRutas.Name = "tclMantenedorRutas";
             this.tclMantenedorRutas.SelectedIndex = 0;
-            this.tclMantenedorRutas.Size = new System.Drawing.Size(655, 353);
+            this.tclMantenedorRutas.Size = new System.Drawing.Size(655, 354);
             this.tclMantenedorRutas.TabIndex = 12;
             // 
             // tbpIngresoDatos
@@ -437,7 +423,7 @@
             this.tbpIngresoDatos.Location = new System.Drawing.Point(4, 22);
             this.tbpIngresoDatos.Name = "tbpIngresoDatos";
             this.tbpIngresoDatos.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpIngresoDatos.Size = new System.Drawing.Size(647, 327);
+            this.tbpIngresoDatos.Size = new System.Drawing.Size(647, 328);
             this.tbpIngresoDatos.TabIndex = 0;
             this.tbpIngresoDatos.Text = "Ingreso";
             // 
@@ -447,7 +433,7 @@
             this.tbpDatos.Location = new System.Drawing.Point(4, 22);
             this.tbpDatos.Name = "tbpDatos";
             this.tbpDatos.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpDatos.Size = new System.Drawing.Size(647, 327);
+            this.tbpDatos.Size = new System.Drawing.Size(647, 328);
             this.tbpDatos.TabIndex = 1;
             this.tbpDatos.Text = "Datos";
             this.tbpDatos.UseVisualStyleBackColor = true;
@@ -461,66 +447,8 @@
             this.dgvRutas.Location = new System.Drawing.Point(3, 3);
             this.dgvRutas.Name = "dgvRutas";
             this.dgvRutas.ReadOnly = true;
-            this.dgvRutas.Size = new System.Drawing.Size(641, 321);
+            this.dgvRutas.Size = new System.Drawing.Size(641, 322);
             this.dgvRutas.TabIndex = 0;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.txtIdBuscar);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.pbImagenRuta);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(647, 327);
-            this.tabPage1.TabIndex = 2;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // txtIdBuscar
-            // 
-            this.txtIdBuscar.Location = new System.Drawing.Point(231, 45);
-            this.txtIdBuscar.Name = "txtIdBuscar";
-            this.txtIdBuscar.Size = new System.Drawing.Size(100, 20);
-            this.txtIdBuscar.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(231, 16);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pbImagenRuta
-            // 
-            this.pbImagenRuta.Location = new System.Drawing.Point(3, 3);
-            this.pbImagenRuta.Name = "pbImagenRuta";
-            this.pbImagenRuta.Size = new System.Drawing.Size(197, 117);
-            this.pbImagenRuta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pbImagenRuta.TabIndex = 0;
-            this.pbImagenRuta.TabStop = false;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(647, 327);
-            this.tabPage2.TabIndex = 3;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(647, 327);
-            this.dataGridView1.TabIndex = 0;
             // 
             // codigoDeBarra
             // 
@@ -664,7 +592,7 @@
             this.MenuNav.Location = new System.Drawing.Point(0, 0);
             this.MenuNav.Name = "MenuNav";
             this.MenuNav.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.MenuNav.Size = new System.Drawing.Size(685, 25);
+            this.MenuNav.Size = new System.Drawing.Size(677, 25);
             this.MenuNav.TabIndex = 14;
             this.MenuNav.Text = "MenuNav";
             // 
@@ -743,7 +671,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(685, 406);
+            this.ClientSize = new System.Drawing.Size(677, 410);
             this.Controls.Add(this.MenuNav);
             this.Controls.Add(this.txtIdChofer);
             this.Controls.Add(this.txtIdCamion);
@@ -773,11 +701,6 @@
             this.tbpIngresoDatos.ResumeLayout(false);
             this.tbpDatos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRutas)).EndInit();
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImagenRuta)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.MenuNav.ResumeLayout(false);
             this.MenuNav.PerformLayout();
@@ -845,12 +768,6 @@
         private System.Windows.Forms.ToolStripButton btnBuscar;
         private System.Windows.Forms.ToolStripButton btnMenu;
         private System.Windows.Forms.ToolStripButton btnCerrarSesion;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TextBox txtIdBuscar;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pbImagenRuta;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.DataGridView dataGridView1;
 
        
     }

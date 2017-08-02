@@ -12,7 +12,7 @@ namespace Datos.Clases
         private SqlConnection con { get; set; }
         private string cadenaConexionSeguridad()
         {
-            return (@"Data Source =DESKTOP-AA9RM3O; Initial Catalog = Seguridad; Integrated security=true");
+            return (@"Data Source =.; Initial Catalog = Seguridad; Integrated security=true");
         }
         public SqlConnection getConexionSeguridad()
         {

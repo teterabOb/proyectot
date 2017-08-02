@@ -37,7 +37,7 @@ namespace Presentacion.Pantallas
         {
             InitializeComponent();
 
-            this.cadenaconexion = (@"Data Source =DESKTOP-AA9RM3O; Initial Catalog = PROYECTOT; Integrated security=true");
+            this.cadenaconexion = (@"Data Source =.; Initial Catalog = PROYECTOT; Integrated security=true");
             this.conn = new SqlConnection(this.cadenaconexion);
             CargaBotones();
         }
@@ -103,7 +103,9 @@ namespace Presentacion.Pantallas
         public DataTable NombreChofer()
         {
             DataTable dt = new DataTable();
-            string sql = "SELECT primernombre from PERSONAL inner join cargo on cargo.idcargo = PERSONAL.idcargo where nombrecargo = 'chofer' ";
+            string sql = (@"SELECT UPPER(PrimerNombre)+' '+UPPER(ApellidoPaterno)+' '+UPPER(ApellidoMaterno)  [primernombre] 
+                            FROM PERSONAL JOIN cargo on cargo.idcargo = PERSONAL.idcargo 
+                            WHERE nombrecargo = 'chofer' ");
             SqlCommand comandosql = new SqlCommand(sql, conn);
             SqlDataAdapter da = new SqlDataAdapter(comandosql);
             da.Fill(dt);
@@ -271,54 +273,54 @@ namespace Presentacion.Pantallas
 
         }
 
-        //private void btnBuscarPorIdRuta_Click(object sender, EventArgs e)
-        //{
-        //    if (txtIdRuta.Text == "")
-        //    {
-        //        MessageBox.Show("Debe ingresar una ID a buscar");
-        //    }
-        //    else
-        //    {
-        //        Ruta objRuta = new Ruta();
-        //        objRuta.Idruta = txtIdRuta.Text;
-        //        objRuta.buscarRuta();
+        private void btnBuscarPorIdRuta_Click(object sender, EventArgs e)
+        {
+            //if (txtIdRuta.Text == "")
+            //{
+            //    MessageBox.Show("Debe ingresar una ID a buscar");
+            //}
+            //else
+            //{
+            //    nRuta objRuta = new nRuta();
+            //    objRuta.Idruta = txtIdRuta.Text;
+            //    objRuta.buscarRuta();
 
-        //        if (objRuta.buscarRuta() == 1)
-        //        {
-        //            MessageBox.Show("Ruta encontrada con éxito");
-        //            this.sql = string.Format(@"select camion.idcamion,personal.idpersonal,subcategoria.idsubcategoria,obra.idobra,modelo.nombre,estadoruta.nombreestado,ruta.descripcioncarga,ruta.NombreRuta,personal.rut,PERSONAL.PrimerNombre,CAMION.patente,obra.NombreObra,SUBCATEGORIA.NombreSubCategoria from RUTA inner join PERSONAL on personal.idPersonal=ruta.idPersonal inner join CAMION on camion.idCamion=ruta.idCamion inner join OBRA on obra.idObra=ruta.idObra inner join SUBCATEGORIA on SUBCATEGORIA.idSubcategoria=ruta.idSubCategoria inner join modelo on CAMION.idModelo = MODELO.idModelo inner join ESTADORUTA on ESTADORUTA.idEstadoRuta = ruta.idEstado where RUTA.idRuta ='" + txtIdRuta.Text + "'");
-        //            this.comandosql = new SqlCommand(this.sql, this.conn);
-        //            this.conn.Open();
-        //            SqlDataReader Reg = null;
-        //            Reg = this.comandosql.ExecuteReader();
-        //            if (Reg.Read() == true)
-        //            {
-        //                txtNombreRuta.Text = Reg["nombreestado"].ToString();
-        //                txtNombreRuta.Text = Reg["nombreruta"].ToString();
-        //                txtRutChofer.Text = Reg["rut"].ToString();
-        //                txtModeloCamion.Text = Reg["nombre"].ToString();
-        //                txtDescripcion.Text = Reg["descripcioncarga"].ToString();                      
-        //                txtIdCamion.Text = Reg["idcamion"].ToString(); ;
-        //                txtIdChofer.Text = Reg["idpersonal"].ToString(); ;
-        //                txtIdMaterial.Text = Reg["idsubcategoria"].ToString(); ;
-        //                txtIdObra.Text = Reg["idobra"].ToString(); ;
-        //                this.conn.Close();
-        //                tbtnActualizar.Enabled = true;
-        //                tbtnEliminar.Enabled = true;
-        //                txtDescripcion.ReadOnly = false;
-        //                txtIdRuta.ReadOnly = true;
-        //                txtNombreRuta.ReadOnly = false;
-        //            }
+            //    if (objRuta.buscarRuta() == 1)
+            //    {
+            //        MessageBox.Show("Ruta encontrada con éxito");
+            //        this.sql = string.Format(@"select camion.idcamion,personal.idpersonal,subcategoria.idsubcategoria,obra.idobra,modelo.nombre,estadoruta.nombreestado,ruta.descripcioncarga,ruta.NombreRuta,personal.rut,PERSONAL.PrimerNombre,CAMION.patente,obra.NombreObra,SUBCATEGORIA.NombreSubCategoria from RUTA inner join PERSONAL on personal.idPersonal=ruta.idPersonal inner join CAMION on camion.idCamion=ruta.idCamion inner join OBRA on obra.idObra=ruta.idObra inner join SUBCATEGORIA on SUBCATEGORIA.idSubcategoria=ruta.idSubCategoria inner join modelo on CAMION.idModelo = MODELO.idModelo inner join ESTADORUTA on ESTADORUTA.idEstadoRuta = ruta.idEstado where RUTA.idRuta ='" + txtIdRuta.Text + "'");
+            //        this.comandosql = new SqlCommand(this.sql, this.conn);
+            //        this.conn.Open();
+            //        SqlDataReader Reg = null;
+            //        Reg = this.comandosql.ExecuteReader();
+            //        if (Reg.Read() == true)
+            //        {
+            //            txtNombreRuta.Text = Reg["nombreestado"].ToString();
+            //            txtNombreRuta.Text = Reg["nombreruta"].ToString();
+            //            txtRutChofer.Text = Reg["rut"].ToString();
+            //            txtModeloCamion.Text = Reg["nombre"].ToString();
+            //            txtDescripcion.Text = Reg["descripcioncarga"].ToString();
+            //            txtIdCamion.Text = Reg["idcamion"].ToString(); ;
+            //            txtIdChofer.Text = Reg["idpersonal"].ToString(); ;
+            //            txtIdMaterial.Text = Reg["idsubcategoria"].ToString(); ;
+            //            txtIdObra.Text = Reg["idobra"].ToString(); ;
+            //            this.conn.Close();
+            //            tbtnActualizar.Enabled = true;
+            //            tbtnEliminar.Enabled = true;
+            //            txtDescripcion.ReadOnly = false;
+            //            txtIdRuta.ReadOnly = true;
+            //            txtNombreRuta.ReadOnly = false;
+            //        }
 
-        //        }
-        //        else
-        //        {
-        //            MessageBox.Show("Usuario no encontrado o no existe");
-        //            txtIdRuta.Clear();
-        //        }
-        //    }
-        //    rutassDGV(dgvRutas);
-        //}
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Usuario no encontrado o no existe");
+            //        txtIdRuta.Clear();
+            //    }
+            //}
+            //rutassDGV(dgvRutas);
+        }
 
         public void rutassDGV(DataGridView dv)
         {
@@ -355,15 +357,28 @@ namespace Presentacion.Pantallas
         //    pbImagenRuta.Image = System.Drawing.Image.FromStream(ms1);
         //    ms.Close();
         }
+        public void CargaCodigoDeBarra()
+        {
+            txtIdRuta.Text = generarCodigo();
+            codigoDeBarra.DataToEncode = generarCodigo();
+            pictureBox1.Image = codigoDeBarra.BMPPicture;
+        }
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             tclMantenedorRutas.SelectedTab = tbpIngresoDatos;
             tbpIngresoDatos.Enabled = true;
-            //tbtnGuardar.Enabled = true;
             txtIdRuta.ReadOnly = true;
-            //tbtnCancelar.Enabled = true;
+
             AccionBtnNuevo();
+        }
+
+        public void CombosPorDefecto()
+        {
+            cmbNombreChofer.SelectedIndex = 0;
+            cmbPatente.SelectedIndex = 0;
+            cmbNombreObra.SelectedIndex = 0;
+            cmbNombreMaterial.SelectedIndex = 0;
         }
 
         public void AccionBtnNuevo()
@@ -380,10 +395,14 @@ namespace Presentacion.Pantallas
             cmbPatente.Enabled = true;
             cmbNombreMaterial.Enabled = true;
             cmbNombreObra.Enabled = true;
+            CargaCodigoDeBarra();
         }
 
         public void AccionBtnCancelar()
         {
+            btnBuscarPorIdRuta.Enabled = false;
+            txtIdRuta.ReadOnly = true;
+            CargaCodigoDeBarra();
             CargaBotones();
 
         }
@@ -440,13 +459,13 @@ namespace Presentacion.Pantallas
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if (txtNombreRuta.Text != "" && txtIdChofer.Text != "" && txtIdCamion.Text != "" && txtIdEstado.Text != "" &&
-               txtIdObra.Text != "" && txtIdMaterial.Text != "" && txtDescripcion.Text != "")
+            if (txtNombreRuta.Text != String.Empty && txtIdChofer.Text != String.Empty && txtIdCamion.Text != String.Empty && txtIdEstado.Text != String.Empty &&
+               txtIdObra.Text != String.Empty && txtIdMaterial.Text != String.Empty && txtDescripcion.Text != String.Empty)
             {
-                codigoDeBarra.SaveImageAs(@"C:\Users\GILBERTS\Pictures\" + txtIdRuta.Text + ".JPG", System.Drawing.Imaging.ImageFormat.Jpeg);
+                codigoDeBarra.SaveImageAs(@"C:\Users\gilberts.ahumada\Pictures\" + txtIdRuta.Text + ".JPG", System.Drawing.Imaging.ImageFormat.Jpeg);
                 //codigoDeBarra.SaveImageAs(@"C:\Users\GILBERTS\Pictures\" + txtIdRuta.Text + ".JPG", System.Drawing.Imaging.ImageFormat.Jpeg);
 
-                FileStream stream = new FileStream(@"C:\Users\GILBERTS\Pictures\" + txtIdRuta.Text + ".JPG", FileMode.Open, FileAccess.Read);
+                FileStream stream = new FileStream(@"C:\Users\gilberts.ahumada\Pictures\" + txtIdRuta.Text + ".JPG", FileMode.Open, FileAccess.Read);
 
                 byte[] bd = new byte[stream.Length];
                 stream.Read(bd, 0, Convert.ToInt32(stream.Length));
@@ -466,21 +485,20 @@ namespace Presentacion.Pantallas
 
 
                 MessageBox.Show("Ruta Ingresada con exito");
+                CargaCodigoDeBarra();
+                LimpiaControles();
+                CombosPorDefecto();
 
-                txtIdRuta.Text = "";
-                txtNombreRuta.Text = "";
-                txtObra.Text = "";
-                txtIdRuta.Text = generarCodigo();
             }
             else
             {
                 MessageBox.Show("No deben haber campos vacios");
-                txtIdRuta.Text = "";
+                txtIdRuta.Text = String.Empty;
                 txtIdRuta.Text = generarCodigo();
             }
-            txtIdRuta.Text = generarCodigo();
-            codigoDeBarra.DataToEncode = txtIdRuta.Text;
-            pictureBox1.Image = codigoDeBarra.BMPPicture;
+            //txtIdRuta.Text = generarCodigo();
+            //codigoDeBarra.DataToEncode = txtIdRuta.Text;
+            //pictureBox1.Image = codigoDeBarra.BMPPicture;
             rutassDGV(dgvRutas);
         }
 
@@ -538,14 +556,16 @@ namespace Presentacion.Pantallas
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            txtIdRuta.Text = "";
-            tclMantenedorRutas.SelectedTab = tbpIngresoDatos;
-            tbpIngresoDatos.Enabled = true;
-            txtIdRuta.ReadOnly = false;
-            txtNombreRuta.ReadOnly = true;
-            txtDescripcion.ReadOnly = true;
-            tbtnCancelar.Enabled = true;
-            txtIdRuta.ReadOnly = false;
+            txtIdRuta.Text                  = String.Empty;
+            tclMantenedorRutas.SelectedTab  = tbpIngresoDatos;
+            btnBuscarPorIdRuta.Enabled      = true;
+            tbpIngresoDatos.Enabled         = true;
+            txtIdRuta.ReadOnly              = false;
+            txtNombreRuta.ReadOnly          = true;
+            txtDescripcion.ReadOnly         = true;
+            tbtnCancelar.Enabled            = true;
+            txtIdRuta.ReadOnly              = false;
+            btnCancelar.Enabled             = true;
         }
 
         private void btnMenu_Click(object sender, EventArgs e)

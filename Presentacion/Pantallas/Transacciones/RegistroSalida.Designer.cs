@@ -59,10 +59,15 @@
             this.txtComentario = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.tmrHora = new System.Windows.Forms.Timer(this.components);
+            this.tclRegistroSalida = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.toolStrip1.SuspendLayout();
             this.gbxEntrada.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tclRegistroSalida.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -73,7 +78,7 @@
             this.btnMenu});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(639, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(658, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -108,7 +113,7 @@
             // 
             this.gbxEntrada.Controls.Add(this.txtIdRuta);
             this.gbxEntrada.Controls.Add(this.label1);
-            this.gbxEntrada.Location = new System.Drawing.Point(12, 28);
+            this.gbxEntrada.Location = new System.Drawing.Point(6, 5);
             this.gbxEntrada.Name = "gbxEntrada";
             this.gbxEntrada.Size = new System.Drawing.Size(612, 51);
             this.gbxEntrada.TabIndex = 5;
@@ -149,7 +154,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 85);
+            this.groupBox1.Location = new System.Drawing.Point(6, 62);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(612, 161);
             this.groupBox1.TabIndex = 2;
@@ -240,7 +245,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(292, 96);
+            this.label8.Location = new System.Drawing.Point(286, 96);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 6;
@@ -306,7 +311,7 @@
             this.groupBox2.Controls.Add(this.txtFechaIngreso);
             this.groupBox2.Controls.Add(this.txtComentario);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Location = new System.Drawing.Point(12, 252);
+            this.groupBox2.Location = new System.Drawing.Point(6, 229);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(612, 111);
             this.groupBox2.TabIndex = 16;
@@ -351,15 +356,46 @@
             // 
             this.tmrHora.Tick += new System.EventHandler(this.tmrHora_Tick);
             // 
+            // tclRegistroSalida
+            // 
+            this.tclRegistroSalida.Controls.Add(this.tabPage1);
+            this.tclRegistroSalida.Controls.Add(this.tabPage2);
+            this.tclRegistroSalida.Location = new System.Drawing.Point(10, 32);
+            this.tclRegistroSalida.Name = "tclRegistroSalida";
+            this.tclRegistroSalida.SelectedIndex = 0;
+            this.tclRegistroSalida.Size = new System.Drawing.Size(645, 390);
+            this.tclRegistroSalida.TabIndex = 17;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.groupBox2);
+            this.tabPage1.Controls.Add(this.gbxEntrada);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(637, 364);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Formulario Salida";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(637, 364);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Datos Salidas";
+            // 
             // RegistroSalida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(639, 383);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.gbxEntrada);
+            this.ClientSize = new System.Drawing.Size(658, 436);
+            this.Controls.Add(this.tclRegistroSalida);
             this.Controls.Add(this.toolStrip1);
             this.Name = "RegistroSalida";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -373,6 +409,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tclRegistroSalida.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -410,5 +448,8 @@
         private System.Windows.Forms.TextBox txtComentario;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer tmrHora;
+        private System.Windows.Forms.TabControl tclRegistroSalida;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }

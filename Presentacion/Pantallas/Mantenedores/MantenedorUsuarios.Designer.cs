@@ -29,16 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorUsuarios));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.tipoUsuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            //this.seguridadDataSet = new Proyecto.SeguridadDataSet();
             this.label6 = new System.Windows.Forms.Label();
-            //this.tipoUsuarioTableAdapter = new Proyecto.SeguridadDataSetTableAdapters.TipoUsuarioTableAdapter();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -50,6 +47,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tclMantenedorUsuarios = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dgvPersonas = new System.Windows.Forms.DataGridView();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tbtnNuevo = new System.Windows.Forms.ToolStripButton();
             this.tbtnGuardar = new System.Windows.Forms.ToolStripButton();
@@ -61,16 +60,13 @@
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tbtnCerrarSesion = new System.Windows.Forms.ToolStripButton();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dgvPersonas = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.tipoUsuarioBindingSource)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.seguridadDataSet)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tclMantenedorUsuarios.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonas)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -124,12 +120,6 @@
             // tipoUsuarioBindingSource
             // 
             this.tipoUsuarioBindingSource.DataMember = "TipoUsuario";
-            //this.tipoUsuarioBindingSource.DataSource = this.seguridadDataSet;
-            // 
-            // seguridadDataSet
-            // 
-            //this.seguridadDataSet.DataSetName = "SeguridadDataSet";
-            //this.seguridadDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label6
             // 
@@ -139,10 +129,6 @@
             this.label6.Size = new System.Drawing.Size(97, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Confirme Password";
-            // 
-            // tipoUsuarioTableAdapter
-            // 
-            //this.tipoUsuarioTableAdapter.ClearBeforeFill = true;
             // 
             // txtNombre
             // 
@@ -217,7 +203,7 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Location = new System.Drawing.Point(6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(555, 235);
+            this.groupBox1.Size = new System.Drawing.Size(583, 235);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información Usuario";
@@ -239,7 +225,7 @@
             this.tclMantenedorUsuarios.Multiline = true;
             this.tclMantenedorUsuarios.Name = "tclMantenedorUsuarios";
             this.tclMantenedorUsuarios.SelectedIndex = 0;
-            this.tclMantenedorUsuarios.Size = new System.Drawing.Size(577, 368);
+            this.tclMantenedorUsuarios.Size = new System.Drawing.Size(603, 278);
             this.tclMantenedorUsuarios.TabIndex = 26;
             this.tclMantenedorUsuarios.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tclMantenedorUsuarios_MouseClick);
             // 
@@ -249,111 +235,10 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(569, 342);
+            this.tabPage1.Size = new System.Drawing.Size(595, 252);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Formulario";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tbtnNuevo,
-            this.tbtnGuardar,
-            this.tbtnEliminar,
-            this.tbtnCancelar,
-            this.tbtnActualizar,
-            this.tbtnBuscar,
-            this.toolStripSeparator1,
-            this.toolStripButton1,
-            this.toolStripSeparator2,
-            this.tbtnCerrarSesion});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(596, 25);
-            this.toolStrip1.TabIndex = 27;
-            this.toolStrip1.Text = "Menu";
-            // 
-            // tbtnNuevo
-            // 
-            this.tbtnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("tbtnNuevo.Image")));
-            this.tbtnNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnNuevo.Name = "tbtnNuevo";
-            this.tbtnNuevo.Size = new System.Drawing.Size(62, 22);
-            this.tbtnNuevo.Text = "Nuevo";
-            this.tbtnNuevo.Click += new System.EventHandler(this.tbtnNuevo_Click);
-            // 
-            // tbtnGuardar
-            // 
-            this.tbtnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("tbtnGuardar.Image")));
-            this.tbtnGuardar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnGuardar.Name = "tbtnGuardar";
-            this.tbtnGuardar.Size = new System.Drawing.Size(69, 22);
-            this.tbtnGuardar.Text = "Guardar";
-            this.tbtnGuardar.Click += new System.EventHandler(this.tbtnGuardar_Click);
-            // 
-            // tbtnEliminar
-            // 
-            this.tbtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tbtnEliminar.Image")));
-            this.tbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnEliminar.Name = "tbtnEliminar";
-            this.tbtnEliminar.Size = new System.Drawing.Size(70, 22);
-            this.tbtnEliminar.Text = "Eliminar";
-            this.tbtnEliminar.Click += new System.EventHandler(this.tbtnEliminar_Click);
-            // 
-            // tbtnCancelar
-            // 
-            this.tbtnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("tbtnCancelar.Image")));
-            this.tbtnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnCancelar.Name = "tbtnCancelar";
-            this.tbtnCancelar.Size = new System.Drawing.Size(73, 22);
-            this.tbtnCancelar.Text = "Cancelar";
-            this.tbtnCancelar.Click += new System.EventHandler(this.tbtnCancelar_Click);
-            // 
-            // tbtnActualizar
-            // 
-            this.tbtnActualizar.Image = ((System.Drawing.Image)(resources.GetObject("tbtnActualizar.Image")));
-            this.tbtnActualizar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnActualizar.Name = "tbtnActualizar";
-            this.tbtnActualizar.Size = new System.Drawing.Size(79, 22);
-            this.tbtnActualizar.Text = "Actualizar";
-            this.tbtnActualizar.Click += new System.EventHandler(this.tbtnActualizar_Click);
-            // 
-            // tbtnBuscar
-            // 
-            this.tbtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("tbtnBuscar.Image")));
-            this.tbtnBuscar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnBuscar.Name = "tbtnBuscar";
-            this.tbtnBuscar.Size = new System.Drawing.Size(62, 22);
-            this.tbtnBuscar.Text = "Buscar";
-            this.tbtnBuscar.Click += new System.EventHandler(this.tbtnBuscar_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(58, 22);
-            this.toolStripButton1.Text = "Menú";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // tbtnCerrarSesion
-            // 
-            this.tbtnCerrarSesion.Image = ((System.Drawing.Image)(resources.GetObject("tbtnCerrarSesion.Image")));
-            this.tbtnCerrarSesion.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tbtnCerrarSesion.Name = "tbtnCerrarSesion";
-            this.tbtnCerrarSesion.Size = new System.Drawing.Size(96, 22);
-            this.tbtnCerrarSesion.Text = "Cerrar Sesión";
-            this.tbtnCerrarSesion.Click += new System.EventHandler(this.tbtnCerrarSesion_Click);
             // 
             // tabPage3
             // 
@@ -377,12 +262,113 @@
             this.dgvPersonas.Size = new System.Drawing.Size(569, 342);
             this.dgvPersonas.TabIndex = 0;
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tbtnNuevo,
+            this.tbtnGuardar,
+            this.tbtnEliminar,
+            this.tbtnCancelar,
+            this.tbtnActualizar,
+            this.tbtnBuscar,
+            this.toolStripSeparator1,
+            this.toolStripButton1,
+            this.toolStripSeparator2,
+            this.tbtnCerrarSesion});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(627, 25);
+            this.toolStrip1.TabIndex = 27;
+            this.toolStrip1.Text = "Menu";
+            // 
+            // tbtnNuevo
+            // 
+            this.tbtnNuevo.Image = global::Presentacion.Properties.Resources.mas;
+            this.tbtnNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnNuevo.Name = "tbtnNuevo";
+            this.tbtnNuevo.Size = new System.Drawing.Size(62, 22);
+            this.tbtnNuevo.Text = "Nuevo";
+            this.tbtnNuevo.Click += new System.EventHandler(this.tbtnNuevo_Click);
+            // 
+            // tbtnGuardar
+            // 
+            this.tbtnGuardar.Image = global::Presentacion.Properties.Resources.guardar;
+            this.tbtnGuardar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnGuardar.Name = "tbtnGuardar";
+            this.tbtnGuardar.Size = new System.Drawing.Size(69, 22);
+            this.tbtnGuardar.Text = "Guardar";
+            this.tbtnGuardar.Click += new System.EventHandler(this.tbtnGuardar_Click);
+            // 
+            // tbtnEliminar
+            // 
+            this.tbtnEliminar.Image = global::Presentacion.Properties.Resources.menos;
+            this.tbtnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnEliminar.Name = "tbtnEliminar";
+            this.tbtnEliminar.Size = new System.Drawing.Size(70, 22);
+            this.tbtnEliminar.Text = "Eliminar";
+            this.tbtnEliminar.Click += new System.EventHandler(this.tbtnEliminar_Click);
+            // 
+            // tbtnCancelar
+            // 
+            this.tbtnCancelar.Image = global::Presentacion.Properties.Resources.eliminar;
+            this.tbtnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnCancelar.Name = "tbtnCancelar";
+            this.tbtnCancelar.Size = new System.Drawing.Size(73, 22);
+            this.tbtnCancelar.Text = "Cancelar";
+            this.tbtnCancelar.Click += new System.EventHandler(this.tbtnCancelar_Click);
+            // 
+            // tbtnActualizar
+            // 
+            this.tbtnActualizar.Image = global::Presentacion.Properties.Resources.editar;
+            this.tbtnActualizar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnActualizar.Name = "tbtnActualizar";
+            this.tbtnActualizar.Size = new System.Drawing.Size(79, 22);
+            this.tbtnActualizar.Text = "Actualizar";
+            this.tbtnActualizar.Click += new System.EventHandler(this.tbtnActualizar_Click);
+            // 
+            // tbtnBuscar
+            // 
+            this.tbtnBuscar.Image = global::Presentacion.Properties.Resources.busqueda;
+            this.tbtnBuscar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnBuscar.Name = "tbtnBuscar";
+            this.tbtnBuscar.Size = new System.Drawing.Size(62, 22);
+            this.tbtnBuscar.Text = "Buscar";
+            this.tbtnBuscar.Click += new System.EventHandler(this.tbtnBuscar_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Image = global::Presentacion.Properties.Resources.menus;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(58, 22);
+            this.toolStripButton1.Text = "Menú";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tbtnCerrarSesion
+            // 
+            this.tbtnCerrarSesion.Image = global::Presentacion.Properties.Resources.home;
+            this.tbtnCerrarSesion.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tbtnCerrarSesion.Name = "tbtnCerrarSesion";
+            this.tbtnCerrarSesion.Size = new System.Drawing.Size(96, 22);
+            this.tbtnCerrarSesion.Text = "Cerrar Sesión";
+            this.tbtnCerrarSesion.Click += new System.EventHandler(this.tbtnCerrarSesion_Click);
+            // 
             // MantenedorUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(596, 420);
+            this.ClientSize = new System.Drawing.Size(627, 332);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.tclMantenedorUsuarios);
             this.Name = "MantenedorUsuarios";
@@ -390,15 +376,14 @@
             this.Text = "MantenedorUsuarios";
             this.Load += new System.EventHandler(this.MantenedorUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tipoUsuarioBindingSource)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.seguridadDataSet)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tclMantenedorUsuarios.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersonas)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

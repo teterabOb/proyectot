@@ -26,7 +26,7 @@ namespace Presentacion.Pantallas.Mantenedores
         public MantenedorModelo()
         {
             InitializeComponent();
-            this.cadenaconexion = (@"Data Source =DESKTOP-AA9RM3O; Initial Catalog = PROYECTOT; Integrated security=true");
+            this.cadenaconexion = (@"Data Source =.; Initial Catalog = PROYECTOT; Integrated security=true");
             this.conn = new SqlConnection(this.cadenaconexion);
         }
 

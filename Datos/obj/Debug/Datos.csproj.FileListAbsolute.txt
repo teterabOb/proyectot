@@ -20,3 +20,11 @@ D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\bin\Debug\Datos.pdb
 D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.dll
 D:\CRC\Proyecto 13-05-2017 2309 - copia\Datos\obj\Debug\Datos.pdb
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Datos\bin\Debug\Datos.dll
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Datos\bin\Debug\Datos.pdb
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Datos\obj\Debug\Datos.dll
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Datos\obj\Debug\Datos.pdb
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Datos\bin\Debug\Datos.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Datos\bin\Debug\Datos.pdb
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Datos\obj\Debug\Datos.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Datos\obj\Debug\Datos.pdb

@@ -69,6 +69,7 @@
             this.toolStrip1.Size = new System.Drawing.Size(541, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "Menu";
+            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
             // tbtnMantenedores
             // 

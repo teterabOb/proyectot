@@ -333,8 +333,11 @@
             // 
             // btnRegistrarEntra
             // 
+            this.btnRegistrarEntra.Image = global::Presentacion.Properties.Resources.guardar;
             this.btnRegistrarEntra.Name = "btnRegistrarEntra";
-            this.btnRegistrarEntra.Size = new System.Drawing.Size(23, 22);
+            this.btnRegistrarEntra.Size = new System.Drawing.Size(116, 22);
+            this.btnRegistrarEntra.Text = "Registrar Entrada";
+            this.btnRegistrarEntra.Click += new System.EventHandler(this.btnRegistrarEntra_Click);
             // 
             // btnBuscarr
             // 
@@ -371,6 +374,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.tabPage1.Controls.Add(this.gbxEntrada);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.groupBox2);
@@ -379,8 +383,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(569, 367);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Formulario";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Text = "Formulario Entrada";
             // 
             // tabPage2
             // 
@@ -390,7 +393,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(569, 367);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Datos";
+            this.tabPage2.Text = "Datos Entrada";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // dgvRutas

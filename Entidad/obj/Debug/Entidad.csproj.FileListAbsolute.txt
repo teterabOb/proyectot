@@ -1,0 +1,4 @@
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Entidad\bin\Debug\Entidad.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Entidad\obj\Debug\Entidad.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Entidad\obj\Debug\Entidad.pdb

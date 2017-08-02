@@ -14,17 +14,6 @@ namespace Logica.Clases
         public int idtipo { get; set; }
         public string tipo { get; set; }
 
-        //public string Tipo
-        //{
-        //    get { return tipo; }
-        //    set { tipo = value; }
-        //}
-
-        //public int Idtipo
-        //{
-        //    get { return idtipo; }
-        //    set { idtipo = value; }
-        //}
 
     }
 }

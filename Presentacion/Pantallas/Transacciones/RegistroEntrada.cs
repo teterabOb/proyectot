@@ -27,7 +27,7 @@ namespace Presentacion.Pantallas
 
         public RegistroEntrada()
         {
-            cadenaconexion = (@"Data Source =DESKTOP-AA9RM3O; Initial Catalog = PROYECTOT; Integrated security=true");
+            cadenaconexion = (@"Data Source =.; Initial Catalog = PROYECTOT; Integrated security=true");
             this.conn = new SqlConnection(this.cadenaconexion);
             InitializeComponent();
         }
@@ -141,6 +141,11 @@ namespace Presentacion.Pantallas
             MenuADM obManUs = new MenuADM();
             obManUs.Show();
             this.Hide();
+        }
+
+        private void btnRegistrarEntra_Click(object sender, EventArgs e)
+        {
+
         }
 
 

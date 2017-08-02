@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Presentacion.Pantallas;
+using Presentacion.Pantallas.Reportes;
+using Presentacion.Pantallas.MantenedorUsuarios;
 
 namespace Presentacion.Menu
 {
-    public partial class MenuADM : Form
+    public partial class MenuADM : Form 
     {
         public MenuADM()
         {
@@ -247,16 +249,21 @@ namespace Presentacion.Menu
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //MantenedorUsuarios log = new MantenedorUsuarios();
-            //log.Show();
-            //this.Hide();
+            MantenedorUsuarios log = new MantenedorUsuarios();
+            log.Show();
+            this.Hide();
         }
 
         private void generarReportesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Reportes log = new Reportes();
-            //log.Show();
-            //this.Hide();
+            Reportes log = new Reportes();
+            log.Show();
+            this.Hide();
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
