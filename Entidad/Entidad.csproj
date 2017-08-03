@@ -39,7 +39,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Login\aTipoDeUsuario.cs" />
+    <Compile Include="Clases\Login\aUsuario.cs" />
+    <Compile Include="Clases\Proyecto\aCamion.cs" />
+    <Compile Include="Clases\Proyecto\aCargo.cs" />
+    <Compile Include="Clases\Proyecto\aCategoria.cs" />
+    <Compile Include="Clases\Proyecto\aCiudad.cs" />
+    <Compile Include="Clases\Proyecto\aComuna.cs" />
+    <Compile Include="Clases\Proyecto\aMarca.cs" />
+    <Compile Include="Clases\Proyecto\aMaterial.cs" />
+    <Compile Include="Clases\Proyecto\aModelo.cs" />
+    <Compile Include="Clases\Proyecto\aObra.cs" />
+    <Compile Include="Clases\Proyecto\aPersona.cs" />
+    <Compile Include="Clases\Proyecto\aRegion.cs" />
+    <Compile Include="Clases\Proyecto\aRuta.cs" />
+    <Compile Include="Clases\Proyecto\aSubCategoria.cs" />
+    <Compile Include="Clases\Transacciones\aEntrada.cs" />
+    <Compile Include="Clases\Transacciones\aIngreso.cs" />
+    <Compile Include="Clases\Transacciones\aSalida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{7b44568e-b58a-402b-a6cb-c6326182ebd8}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

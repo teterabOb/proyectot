@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Presentacion.Pantallas;
+using Presentacion.Pantallas.Documentos;
 
 namespace Presentacion
 {
@@ -17,7 +18,7 @@ namespace Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new Hoja());
         }
     }
 }

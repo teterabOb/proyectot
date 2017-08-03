@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Presentacion.Pantallas;
-using Presentacion.Pantallas.Reportes;
 using Presentacion.Pantallas.MantenedorUsuarios;
 
 namespace Presentacion.Menu
@@ -256,9 +255,9 @@ namespace Presentacion.Menu
 
         private void generarReportesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Reportes log = new Reportes();
-            log.Show();
-            this.Hide();
+            //Reportes log = new Reportes();
+            //log.Show();
+            //this.Hide();
         }
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

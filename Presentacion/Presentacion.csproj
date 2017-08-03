@@ -68,10 +68,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+    <Compile Include="Pantallas\Documentos\Hoja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Documentos\Hoja.Designer.cs">
+      <DependentUpon>Hoja.cs</DependentUpon>
     </Compile>
     <Compile Include="Pantallas\Ingreso\Login.cs">
       <SubType>Form</SubType>
@@ -178,18 +179,6 @@
     <Compile Include="Pantallas\Menu\MenuUSU.Designer.cs">
       <DependentUpon>MenuUSU.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pantallas\Reportes\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Reportes\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pantallas\Reportes\ReporteHojaDeRuta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pantallas\Reportes\ReporteHojaDeRuta.Designer.cs">
-      <DependentUpon>ReporteHojaDeRuta.cs</DependentUpon>
-    </Compile>
     <Compile Include="Pantallas\Transacciones\RegistroEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,19 +191,17 @@
     <Compile Include="Pantallas\Transacciones\RegistroSalida.Designer.cs">
       <DependentUpon>RegistroSalida.cs</DependentUpon>
     </Compile>
+    <Compile Include="PDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PROYECTOTDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PROYECTOTDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="RptHojaDeRuta.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RptHojaDeRuta.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
+    <EmbeddedResource Include="Pantallas\Documentos\Hoja.resx">
+      <DependentUpon>Hoja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Documentos\Report1.rdlc" />
     <EmbeddedResource Include="Pantallas\Ingreso\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -239,12 +226,6 @@
     <EmbeddedResource Include="Pantallas\Menu\MenuUSU.resx">
       <DependentUpon>MenuUSU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pantallas\Reportes\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pantallas\Reportes\ReporteHojaDeRuta.resx">
-      <DependentUpon>ReporteHojaDeRuta.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Pantallas\Transacciones\RegistroEntrada.resx">
       <DependentUpon>RegistroEntrada.cs</DependentUpon>
     </EmbeddedResource>
@@ -261,27 +242,23 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RptHojaDeRuta.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptHojaDeRuta.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="bin\Debug\Presentacion.exe.config" />
     <None Include="bin\Debug\Presentacion.vshost.exe.config" />
-    <None Include="DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet1.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\Presentacion.csproj.GenerateResource.Cache" />
     <None Include="obj\Debug\Presentacion.csprojResolveAssemblyReference.cache" />
+    <None Include="PDataSet.xsc">
+      <DependentUpon>PDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PDataSet.xss">
+      <DependentUpon>PDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -296,17 +273,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="PROYECTOTDataSet.xsc">
-      <DependentUpon>PROYECTOTDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PROYECTOTDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PROYECTOTDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PROYECTOTDataSet.xss">
-      <DependentUpon>PROYECTOTDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Resources\1-candado.png" />
   </ItemGroup>
   <ItemGroup>
