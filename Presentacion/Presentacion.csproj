@@ -35,6 +35,11 @@
     <Reference Include="BarcodeLib.BarcodeReader">
       <HintPath>..\Proyecto\bin\Debug\BarcodeLib.BarcodeReader.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="IDAutomation.LinearBarCode">
       <HintPath>..\Proyecto\bin\Debug\IDAutomation.LinearBarCode.dll</HintPath>
     </Reference>
@@ -47,8 +52,12 @@
     <Reference Include="itextsharp.xtra">
       <HintPath>..\Proyecto\bin\Debug\itextsharp.xtra.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pantallas\Documentos\Hoja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Documentos\Hoja.Designer.cs">
+      <DependentUpon>Hoja.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pantallas\Ingreso\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,13 +191,25 @@
     <Compile Include="Pantallas\Transacciones\RegistroSalida.Designer.cs">
       <DependentUpon>RegistroSalida.cs</DependentUpon>
     </Compile>
+    <Compile Include="PDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pantallas\Documentos\Hoja.resx">
+      <DependentUpon>Hoja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Documentos\Report1.rdlc" />
     <EmbeddedResource Include="Pantallas\Ingreso\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pantallas\Mantenedores\MantenedorCamion.resx">
       <DependentUpon>MantenedorCamion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Mantenedores\MantenedorUsuarios.resx">
+      <DependentUpon>MantenedorUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pantallas\Menu\MenuADM.resx">
       <DependentUpon>MenuADM.cs</DependentUpon>
@@ -221,6 +248,17 @@
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\Presentacion.csproj.GenerateResource.Cache" />
     <None Include="obj\Debug\Presentacion.csprojResolveAssemblyReference.cache" />
+    <None Include="PDataSet.xsc">
+      <DependentUpon>PDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PDataSet.xss">
+      <DependentUpon>PDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -282,7 +320,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
-    <Folder Include="Pantallas\Acceso\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\BarcodeLib.BarcodeReader.dll" />
@@ -300,6 +337,9 @@
     <Content Include="obj\Debug\Presentacion.exe" />
     <Content Include="obj\Debug\Presentacion.pdb" />
     <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

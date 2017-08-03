@@ -33,3 +33,17 @@ D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\bin\Debug\Datos.pdb
 D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
 D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.dll
 D:\CRC\Proyecto 13-05-2017 2309 - copia\Logica\obj\Debug\Logica.pdb
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\bin\Debug\Logica.dll
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\bin\Debug\Logica.pdb
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\bin\Debug\Datos.dll
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\bin\Debug\Datos.pdb
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\obj\Debug\Logica.dll
+C:\Users\gilberts.ahumada\Documents\PROYECTOT 31-07-2017\01-08-2017\proyectot-master\Logica\obj\Debug\Logica.pdb
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\bin\Debug\Logica.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\bin\Debug\Logica.pdb
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\bin\Debug\Datos.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\bin\Debug\Datos.pdb
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\obj\Debug\Logica.dll
+C:\Users\Gilberts\Desktop\01-08-2017\proyectot-master\Logica\obj\Debug\Logica.pdb

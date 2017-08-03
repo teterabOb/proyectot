@@ -27,7 +27,7 @@ namespace Presentacion.Pantallas.MantenedorUsuarios
         #region Constructor
         public MantenedorUsuarios()
         {
-            this.cadenaconexion = (@"Data Source =DESKTOP-AA9RM3O; Initial Catalog = Seguridad; Integrated security=true");
+            this.cadenaconexion = (@"Data Source =.; Initial Catalog = Seguridad; Integrated security=true");
             this.conn = new SqlConnection(this.cadenaconexion);
             InitializeComponent();
         }
